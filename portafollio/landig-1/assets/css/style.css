@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kalam:wght@300&family=Permanent+Marker&family=Roboto:wght@100&display=swap');
+
+body{
+    width: 80%;
+    margin: auto;
+}
+tr:hover {
+    box-shadow: 0 0 2px 1px black;
+  }
+/*clases*/
+.content{
+    background-color: #ddd; 
+}
+.banner{
+    height: 250px;
+    width: 100%;
+    margin: auto;
+    object-fit: fill;
+    object-position: 10% 3%;
+}
+.img-tbl{
+    height: 50%;
+    width: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #dbe4ed; 
+    border-radius: 10px;
+}
+.footer{
+    background-color: #f1f1f1;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.tbl-center{
+    margin: auto;
+    width: 90%;
+    padding: 50px;
+}
+.td-img{
+    width: 450px;
+}
+.txt-desc{
+    font-family: 'Kalam', cursive;
+    text-align: left;
+    margin: 0;
+}
+.txt1-banner{
+    font-family: 'Permanent Marker', cursive;
+    color: #e6792c;
+    -webkit-text-stroke: 1px #000000 ;
+    position: absolute;
+    top: 5px;
+    left: 140px;
+    font-size: 45px;
+}
+.txt2-banner{
+    font-family: 'Permanent Marker', cursive;
+    color: #e6792c;
+    -webkit-text-stroke: 1px #000000 ;
+    position: absolute;
+    font-size: 28px;
+    top: 55px;
+    left: 135px;
+}
